@@ -9,18 +9,20 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <div class="container">
-        <div class="top__contacts">Working Hours: 08 AM - 08 PM</div>
-        <div class="top__contacts">Email: happypaw@email.com</div>
-        <div class="top__contacts">Phone: +1 (234) 567 89 00</div>
-    </div>
-    <header>
-        <div class="header__logo-container">
-            <a href="#" class="header__logo"><img src="img/LOGO.svg" alt="logo"></a>
+    <header class="header">
+        <div class="header__contacts">
+            <p class="header__working-hours">Working Hours: 08 AM - 08 PM</p>
+            <a class="header__email" href="mailto:happypaw@email.com">happypaw@email.com</a>
+            <p class="header__phone">Phone: +1 (234) 567 89 00</p>
         </div>
-    <nav>
-        <div class="container">
-            <ul class="navigation">
+
+    <nav class="header__nav">
+        <a href=" #" class="header__logo-container">
+            <img class="header__logo" width="182" src="img/LOGO.svg" alt="Happy Paw Logo" />
+        </a>
+
+        <div class="header__menu">
+            <ul class="nav">
                 <li class="nav-item"><a href="#" class="nav__link">About Us</a></li>
                 <li class="nav-item"><a href="#" class="nav__link">Categories</a></li>
                 <li class="nav-item"><a href="#" class="nav__link">Best Sellers</a></li>
@@ -28,24 +30,29 @@
                 <li class="nav-item"><a href="#" class="nav__link">Our Shop</a></li>
             </ul>
         </div>
-    </nav>
-    <div class="header_social">
-        <a href="#" class="header__social_item">Facebook</a>
-        <a href="#" class="footer__social_item">Instagram</a>
-        <a href="#" class="footer__social_item">Youtube</a>
-    </div>
-</header>
 
-    <section class="promo">
-       <div class="container">
-        <div class="needs">
-            <h1 class="promo__title">Everything Your Pet Needs</h1>
-            <h2 class="promo__subtitle">Pet supplies, food, and products from the best manufacturers.</h2>
+        <div class="header__icons">
+            <a class="header__icons-items" href="https://www.facebook.com" target="_blank">
+                <img src="#" alt="Facebook Logo">
+            </a>
+            <a class="header__icons-items" href="https://www.instagram.com" target="_blank">
+                <img src="#" alt="Instagram Logo">
+            </a>
+            <a class="header__icons-items" href="https://www.youtube.com" target="_blank">
+                <img src="#" alt="Youtube Logo">
+            </a>
+        </div>
+    </nav>
+    <div class="header__banner">
+        <div class="header__banner-text">
+            <h1 class="header__title">Everything Your Pet Needs</h1>
+            <h2 class="header__subtitle">Pet supplies, food, and products from the best manufacturers.</h2>
             <a href="#" class="about-us__button">About Us</a>
             <a href="#" class="categories__button">Categories</a>
+
         </div>
-       </div>
-    </section>
+    </div>
+    </header>
 
     <main>
 
