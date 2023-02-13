@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h2 {
+
+}
+
+h3 {
+
+}
+:root {
+    scroll-behavior: smooth;
+}
+  
+img {
+    width: 100%;
+    display: block;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+  
