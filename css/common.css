@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap'); /* PT SANS */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap'); /* Baloo 2 */
+
+
+
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -5,14 +12,28 @@
     text-decoration: none;
 }
 h2 {
-
+    font-family: "Baloo 2", cursive;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--title-color);
 }
 
 h3 {
-
+    font-family: "PT Sans", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--subtitle-color);
 }
 :root {
     scroll-behavior: smooth;
+    --brand-color: rgb(237, 100, 53);
+    --nav-color: rgb(107, 107, 107);
+    --accent-color: rgb(69, 193, 199);
+    --title-color: rgb(60, 55, 49);
+    --subtitle-color: rgb(149, 139, 126);
+    --background-color: rgb(255, 230, 212);
+    font-family: "PT Sans", sans-serif;
+
 }
   
 img {
