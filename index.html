@@ -18,7 +18,7 @@
 
     <nav class="header__nav">
         <a href=" #" class="header__logo-container">
-            <img class="header__logo" width="182" src="img/LOGO.svg" alt="Happy Paw Logo" />
+            <img class="header__logo" width="182" src="img/header__logo.svg" alt="Happy Paw Logo" />
         </a>
 
         <div class="header__menu">
@@ -47,9 +47,10 @@
         <div class="header__banner-text">
             <h1 class="header__title">Everything Your Pet Needs</h1>
             <h3 class="header__subtitle">Pet supplies, food, and products from the best manufacturers.</h3>
-            <a href="#" class="about-us__button">About Us</a>
-            <a href="#" class="categories__button">Categories</a>
-
+            <div class="header__buttons">
+                <a href="#" class="about-us__button">About Us</a>
+                <a href="#" class="categories__button">Categories</a>
+            </div>
         </div>
     </div>
     </header>
@@ -59,13 +60,23 @@
     <section class="offers">
 <div class="company__offers">
 <div class="offer__card best-quality">
-    <span class="sellers__best-quality">BUTCHERS, ROYAL CANIN, PEDIGREE</span>
+    <div class="offer-card__banner">
+        <img src="img/best-quality-banner.png" alt="Best Quality Banner" class="Best-quality__banner">
+    </div>
+    <div class="offer-card__text">
+        <span class="sellers__best-quality">BUTCHERS, ROYAL CANIN, PEDIGREE</span>
     <p class="offer_quality-text">Best-Quality Food for Pets</p>
     <a href="#" class="offer__button-quality">Buy Now</a>
 </div>
+</div>
 <div class="offer__card discount">
+    <div class="offer-card__banner">
+        <img src="img/10percent-off-banner.png" alt="10%-off Banner" class="10percent-off__banner">
+    </div>
+    <div class="offer-card__text">
     <p class="offer_discount-text">Get <span class="discount__rate">10%</span> Off for Cats & Dogs Stuff</p>
     <a href="#" class="offer__button-discount">See Products</a>
+    </div>
 </div>
 </div>
         </section>

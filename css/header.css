@@ -1,0 +1,82 @@
+.header {
+    background-image: url(../img/header__banner.png);
+	background-size: cover;
+	padding: 0 24px;
+}
+
+.header__contacts {
+    display: none;
+}
+
+.header__menu {
+    display: none;
+}
+
+.header__icons {
+    display: none;
+}
+
+.header__nav {
+    padding: 30px 0px 30px 0px;
+    width: 182px;
+}
+
+.header__banner {
+    padding: 110px 0px 150px 0px;
+}
+
+.header__title {
+    font-family: "Baloo 2", cursive;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.header__subtitle {
+    margin-top: 35px;
+    line-height: 28.5px;
+}
+
+.header__buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__buttons .about-us__button {
+    margin: 10px 10px 10px 0px;
+    padding: 16px 28px 16px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16.5px;
+    color: var(--brand-color);
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: var(--background-color);
+    width: 126.4px;
+    height: 48.5px;
+    cursor: pointer;
+}
+
+.header__buttons .categories__button {
+    margin: 10px 10px 10px 0px;
+    padding: 16px 28px 16px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16.5px;
+    color: var(--accent-color);
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid var(--accent-color);
+    border-radius: 25px;
+    width: 126.4px;
+    height: 48.5px;
+    cursor: pointer;
+}
