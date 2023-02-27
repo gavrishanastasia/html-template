@@ -32,6 +32,7 @@ h3 {
     --title-color: rgb(60, 55, 49);
     --subtitle-color: rgb(149, 139, 126);
     --background-color: rgb(255, 230, 212);
+    --header-background: rgb(242, 232, 228);
     font-family: "PT Sans", sans-serif;
 
 }
